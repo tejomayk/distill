@@ -1,0 +1,50 @@
+title: DS Distilled
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+  Artificial Intelligence, Machine Learning, Data Science concepts
+  distilled to gain mental clarity and share with the world. 
+baseurl: "/distill"
+url: "https://tejomayk.github.io"
+
+# Build settings
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+
+header:
+  nav:
+    - title: "Home"
+      url: /
+    - title: "About"
+      url: /about/
+
+
+author:
+  name: "Tejomay Kapadia"
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author: "Tejomay Kapadia"
+
+# GitHub Pages deployment
+github:
+  is_project_page: True
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
