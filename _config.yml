@@ -7,7 +7,7 @@ baseurl: "/distill"
 url: "https://tejomayk.github.io"
 
 # Build settings
-theme: jekyll-theme-midnight
+theme: jekyll-theme-dinky
 plugins:
   - jekyll-feed
   - jekyll-sitemap
