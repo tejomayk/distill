@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "Linear Algebra"
+title: Linear Algebra
 permalink: /linear_algebra
-order: 3
+order: 4
 ---
 
 # Linear Algebra
+The study

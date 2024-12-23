@@ -14,9 +14,18 @@ plugins:
 
 
 header_pages:
-  - index.markdown
-  - about.md
-  - linear_algebra.md
+  - path: index.markdown
+    title: Home
+    order: 1
+  - path: about.md
+    title: About
+    order: 2
+  - path: general.md
+    title: General
+    order: 3
+  - path: linear_algebra.md
+    title: Linear Algebra
+    order: 4
 
 author:
   name: "Tejomay Kapadia"
@@ -27,7 +36,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "single"
+      layout: "default"
       author: "Tejomay Kapadia"
 
 # GitHub Pages deployment
