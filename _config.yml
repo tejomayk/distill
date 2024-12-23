@@ -2,7 +2,7 @@ title: DS Distilled
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Artificial Intelligence, Machine Learning, Data Science concepts
-  distilled to gain mental clarity and share with the world. 
+  distilled to enhance mental clarity. 
 baseurl: "/distill"
 url: "https://tejomayk.github.io"
 
@@ -13,13 +13,10 @@ plugins:
   - jekyll-sitemap
 
 
-header:
-  nav:
-    - title: "Home"
-      url: /
-    - title: "About"
-      url: /about/
-
+header_pages:
+  - index.markdown
+  - about.md
+  - linear_algebra.md
 
 author:
   name: "Tejomay Kapadia"
@@ -36,15 +33,3 @@ defaults:
 # GitHub Pages deployment
 github:
   is_project_page: True
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
